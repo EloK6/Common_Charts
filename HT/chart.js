@@ -10,7 +10,7 @@ async function drawHeatMap() {
   //console.log(dateAccessor(dataset[dataset.length - 1]));
 
   const firstDate = dateAccessor(dataset[0]);
-  const weekFormat = d3.timeFormat("%-e");
+  //const weekFormat = d3.timeFormat("%-e");
   const xAccessor = (d) => d3.timeWeeks(firstDate, dateAccessor(d)).length;
   //console.log(xAccessor(dataset));
   const dayOfWeekFormat = d3.timeFormat("%-w");
