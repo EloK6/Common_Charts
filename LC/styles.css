@@ -1,0 +1,12 @@
+.line {
+    fill : none;
+    stroke : #2980b9;
+    stroke-width: 2;
+}
+
+.y-axis-label {
+    fill: black;
+    font-size : 1.4em;
+    text-anchor : middle;
+    transform:rotate(-90deg)
+}
